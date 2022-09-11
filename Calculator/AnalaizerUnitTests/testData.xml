@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestList>
+	<Test incomingData=" " expected="true"/>
+	<Test incomingData="2" expected="false"/>
+	<Test incomingData="a" expected="false"/>
+	<Test incomingData="_" expected="false"/>
+</TestList>
