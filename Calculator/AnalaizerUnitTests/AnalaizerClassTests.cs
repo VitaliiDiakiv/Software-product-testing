@@ -8,7 +8,7 @@ namespace AnalaizerUnitTests
     public class AnalaizerClassTests
     {
         public TestContext TestContext { get; set; }
-        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", @"C:\Users\Lenovo\Desktop\Calculator\AnalaizerUnitTests\testData.xml", "Test", DataAccessMethod.Sequential)]
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML", @"C:\Users\Lenovo\Desktop\Unit Tests Labs\Lab_1\Calculator\AnalaizerUnitTests\testData.xml", "Test", DataAccessMethod.Sequential)]
 
         [TestMethod()]
         public void IsDelimeterTest()
